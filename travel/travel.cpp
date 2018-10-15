@@ -30,7 +30,7 @@ using namespace std;
     Function Prototypes
 */
 
-bool contains(set <string> & seen, string s);
+bool setContains(set <string> & seen, string s);
 void findIt(int x, int y, int endX, int endY, set <string> & seen, string path);
 void travel(int x, int y);
 
