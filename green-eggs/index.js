@@ -194,7 +194,7 @@ Module.expectedDataFileDownloads++;
   }
 
  }
- loadPackage({"files": [{"filename": "/greeneggs.txt", "start": 0, "end": 3595, "audio": 0}], "remote_package_size": 3595, "package_uuid": "c6e4daa7-4ab4-405c-8cff-7b8cff6bcf1f"});
+ loadPackage({"files": [{"filename": "/greeneggs.txt", "start": 0, "end": 3595, "audio": 0}], "remote_package_size": 3595, "package_uuid": "236543f6-7619-49c6-8cb3-b5bd291ec18d"});
 
 })();
 

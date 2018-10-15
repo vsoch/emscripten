@@ -43,7 +43,7 @@ int main() {
         return 1;
     }
 
-    while(stream >> line) {
+    while(getline(stream, line)) {
         cout << line << endl;
     }
 
