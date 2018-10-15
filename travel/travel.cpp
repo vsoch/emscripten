@@ -14,6 +14,8 @@
     - October 15, 2018
 
    @usage
+      em++ travel.cpp -o index.html
+
       em++ travel.cpp
       node a.out.js
 */
@@ -47,14 +49,17 @@ void travel(int x, int y);
     @param s: the string to find in the set
 */
 
-bool contains(set <string> & seen, string s) {
-    return seen.find(s) != seen.end();
+bool setContains(set <string> & seen, string s) {
+    if(seen.find(s) != seen.end()) {
+        return true;
+    }     
+    return false;
 }
 
 void findIt(int x, int y, int endX, int endY, set <string> & seen, string path) {
 
-    if (contains(seen, path)) {
-    
+    if (!setContains(seen, path)) {
+
         // We found it, print and add to seen
         if ((x == endX) && (y == endY)) {
             cout << path << endl;
@@ -90,7 +95,10 @@ void travel(int x, int y) {
 
 int main() {
 
-    cout << "Let's go on an adventure!" << endl;
-    travel(3, 4);
+    cout << "Let's go on an adventure!" << endl
+         << endl << "All possible paths from (0,0) to (1,2):" 
+         << endl;
+
+    travel(1, 2);
     return 0;
 }
