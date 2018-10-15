@@ -25,4 +25,6 @@ examples here are running without it.
 ## Experiments
 
  - [hello-world](hello-world): or more properly, "Hello Dinosaur!" ([web](https://vsoch.github.io/emscripten/hello-world/))
+ - [hello-dinosaur](hello-dinosaur): experimenting with adding canvas (and using WebAssembly) ([web](https://vsoch.github.io/emscripten/hello-dinosaur/))
  - [travel](travel): a fun testing problem I did to study for a course! ([web](https://vsoch.github.io/emscripten/travel/))
+ - [green-eggs](green-eggs): testing pre-loading and reading a file ([web](https://vsoch.github.io/emscripten/green-eggs/))
